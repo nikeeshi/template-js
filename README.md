@@ -3,21 +3,32 @@ javascript のプログラムを快適に実行するためのテンプレート
 
 # 使う前に
 node.jsがインストールされていることを確認しましょう。
-> node -v
+
+```node -v```
+
 もしくは
-> node --version
+
+```node --version```
+
 を実行してバージョンが表示されればOKです。バージョンが表示されないまたは古い場合、新しいバージョンの node.js をインストールする必要があります。node.jsのバージョン管理は不便なため、Mac, Linuxならnvm, Windowsならnvm-windowsなどのnode.jsのバージョンを管理するツールを使うと便利です。
 
-> npm i
+```npm i```
+
 もしくは
-> npm install
+
+```npm install```
+
 を実行して必要なプログラム（ライブラリ等）を/node_modules以下にインストールしましょう。
 
 # 使い方
 ターミナルを開いて、
-> npm start
+
+```npm start```
+
 もしくは
-> npm run start
+
+```npm run start```
+
 を実行します。ターミナルの画面には index.js の実行結果が表示されます。index.jsを変更すると自動で再実行してくれます。
 
 # 入っている機能
